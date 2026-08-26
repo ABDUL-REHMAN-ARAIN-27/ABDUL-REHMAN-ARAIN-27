@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "aee6c8bd-e2ea-466e-8e84-2932ba4fdf73",
             "zIndex": -1,
+            "id": "aee6c8bd-e2ea-466e-8e84-2932ba4fdf73",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -70,8 +70,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5ebdd5cb-5a74-4a9b-ab8a-77783f5b6034",
             "zIndex": -1,
+            "id": "5ebdd5cb-5a74-4a9b-ab8a-77783f5b6034",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -105,8 +105,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "28a2e484-84d9-4389-9203-a865ee22d167",
             "zIndex": -1,
+            "id": "28a2e484-84d9-4389-9203-a865ee22d167",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -146,6 +146,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -229,7 +230,6 @@
               ]
             },
             "id": "06b3c450-4e94-4e13-8a76-97f93e0940ef",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -263,6 +263,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -346,7 +347,6 @@
               ]
             },
             "id": "f49bb6f9-c65f-4ef5-ba2c-31d39d3f79a9",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -381,6 +381,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -464,7 +465,6 @@
               ]
             },
             "id": "b511048a-094e-49e8-b389-20e9f11d1508",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Payment Gateway",
@@ -498,6 +498,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -581,7 +582,6 @@
               ]
             },
             "id": "f01ce174-a5a6-4874-8818-175c96269654",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -621,6 +621,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -704,7 +705,6 @@
               ]
             },
             "id": "ea4fb441-fba7-4a95-87e0-320b65489fd1",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "Product Database",
@@ -745,6 +745,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -828,7 +829,6 @@
               ]
             },
             "id": "36ffa9b6-7e44-4e52-8db1-a65e491e7a72",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Customer Database",
@@ -1416,6 +1416,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1499,7 +1500,6 @@
               ]
             },
             "id": "590829c0-f356-4f5c-ace1-30a1e48f9b78",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Authentication Service",
@@ -1531,8 +1531,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "6f006a82-d0f9-43ab-9096-1426dbf9471f",
             "zIndex": 12,
+            "id": "6f006a82-d0f9-43ab-9096-1426dbf9471f",
             "data": {
               "type": "tm.Text",
               "name": "Internet Zone",
@@ -1555,8 +1555,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "0fe66c14-eabe-4bcd-b2d7-052957ea687d",
             "zIndex": 13,
+            "id": "0fe66c14-eabe-4bcd-b2d7-052957ea687d",
             "data": {
               "type": "tm.Text",
               "name": "Application Zone",
@@ -1579,8 +1579,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a8437493-6878-4a58-93fc-775a4d8cf8d0",
             "zIndex": 14,
+            "id": "a8437493-6878-4a58-93fc-775a4d8cf8d0",
             "data": {
               "type": "tm.Text",
               "name": "Database Zone",
