@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "5.3",
+  "released_at": "2026-08-26",
+  "summary": {
+    "title": "New Threat Model - OnlineShop-ThreatModel",
+    "owner": "ABDUL REHMAN - 22BSCYS053",
+    "description": "Online shopping web application — customer storefront, checkout, authentication, and admin catalog management, per SWE420 Lab 05 scenario.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Online Shopping DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": ""
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
